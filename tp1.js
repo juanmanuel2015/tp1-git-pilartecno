@@ -20,7 +20,13 @@ function extractValues(data) {
 */
 
 function arrayToLengthCounters(array) {
-  // Tu código aquí
+  function arrayToLengthCounters(array) {
+    const result = {};
+    array.forEach((element) => {
+      result[element] = element.length;
+    });
+    return result;
+  }
 }
 
 /*  
