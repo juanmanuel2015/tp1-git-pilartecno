@@ -6,7 +6,9 @@
 */
 
 function extractValues(data) {
-  // Tu código aquí
+  function extractValues(data) {
+    return Object.values(data);
+  }
 }
 
 /*  
